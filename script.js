@@ -7,7 +7,16 @@ const finalMessage = document.getElementById('final-message')
 
 const figureParts = document.querySelectorAll('.figure-part')
 
-const words = ['application', 'programming', 'interface', 'wizard']
+const words = [
+  'axiom',
+  'duplex',
+  'balance',
+  'bath',
+  'bridge',
+  'button',
+  'connection',
+  'development',
+]
 
 let selectedWord = words[Math.floor(Math.random() * words.length)]
 
